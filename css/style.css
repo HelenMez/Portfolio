@@ -207,24 +207,31 @@ header img {
   color: #cccccce9;
   font-size: 24px;
 }
+.skl{
+  width: 70%;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .dot1 {
   width: 4%;
-  height: 24px;
+  height: 20px;
   background: #ff00d4;
   border-radius: 50%;
 }
 
 .dot2 {
   width: 4%;
-  height: 24px;
+  height: 20px;
   background: #ff00d423;
   border-radius: 50%;
 }
 
 .skill p {
   width: 20%;
-  margin-top: -10px;
 }
 
 main {
@@ -627,7 +634,7 @@ footer h2 {
 
   header {
     width: 100%;
-    height: 1000px;
+    height: 900px;
     justify-content: center;
   }
 
@@ -641,7 +648,7 @@ footer h2 {
   }
 
   header h1 {
-    font-size: 90px;
+    font-size: 60px;
     text-align: center;
   }
 
@@ -662,7 +669,7 @@ footer h2 {
 
   .div_aboutme {
     width: 100%;
-    height: 800px;
+    height: 900px;
     justify-content: center;
   }
 
@@ -677,7 +684,7 @@ footer h2 {
 
   .div_aboutme h2 {
     width: 100%;
-    font-size: 90px;
+    font-size: 60px;
     left: 0px;
     text-align: center;
   }
@@ -695,81 +702,100 @@ footer h2 {
 
   .div_skills {
     width: 100%;
-    height: 950px;
+    height: 1100px;
     justify-content: center;
   }
 
   .div_skills h2 {
-    font-size: 90px;
+    font-size: 60px;
   }
-
-  .skill {
-    width: 90%;
+  .skill{
+    width: 95%;
     height: 100px;
+  }
+  .skl {
+    width: 98%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .dot1 {
-    width: 3.5%;
+    width: 5%;
     height: 20px;
     background: #ff00d4;
     border-radius: 50%;
   }
 
   .dot2 {
-    width: 3.5%;
+    width: 5%;
     height: 20px;
     background: #ff00d423;
     border-radius: 50%;
   }
 
   .skill p {
-    width: 22%;
+    width: 40%;
     margin-top: -10px;
   }
 
   main {
     width: 100%;
-    height: 2000px;
+    height: 1800px;
   }
 
   main h2 {
     width: 100%;
-    font-size: 90px;
+    font-size: 60px;
     color: white;
     text-align: center;
   }
 
   .project_1 {
     width: 100%;
-    height: 900px;
+    height: 800px;
     justify-content: center;
   }
 
   .project_1 img {
-    width: 90%;
-    height: 550px;
+    width: 98%;
+    height: 450px;
   }
 
   .project_1 div {
     width: 90%;
     left: 0px;
   }
-
+  .project_1 h3 {
+    font-size: 50px;
+  }
+  
+  .project_1 p {
+    font-size: 30px;
+  }
   .project_2 {
     width: 100%;
-    height: 900px;
+    height: 800px;
     justify-content: center;
   }
 
   .project_2 img {
-    width: 90%;
-    height: 550px;
+    width: 98%;
+    height: 450px;
     border-radius: 15px;
   }
 
   .project_2 div {
     width: 90%;
     left: 0px;
+  }
+  .project_2 h3 {
+    font-size: 50px;
+  }
+  
+  .project_2 p {
+    font-size: 30px;
   }
 
   .div_contact {
@@ -778,7 +804,7 @@ footer h2 {
   }
 
   .div_contact h2 {
-    font-size: 90px;
+    font-size: 60px;
   }
 
   .div_contact form {
@@ -793,13 +819,13 @@ footer h2 {
 
   footer h2 {
     width: 100%;
-    font-size: 90px;
+    font-size: 60px;
     text-align: center;
   }
 
   .ss {
     width: 100%;
-    height: 200px;
+    height: 120px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
